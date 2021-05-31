@@ -4,9 +4,6 @@ import word_list
 import specials_list
 import PySimpleGUI as sg
 
-# https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity/
-# https://correcthorsebatterystaple.net/
-
 class PassPhrase:
     '''
     Returns a multi-word passphrase
@@ -162,5 +159,6 @@ while True:
 
 window.close()
 
+# Example
 # new_passphrase = PassPhrase(4, 'title', 'space', True)
 # print(new_passphrase.generate_pass())
